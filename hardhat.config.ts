@@ -30,7 +30,7 @@ const config: HardhatUserConfig = {
       url: "http://127.0.0.1:8545"
     },
     hardhat: {
-      // See its defaults
+      chainId: 31337
     },
     ropsten: {
       url: `https://ropsten.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
