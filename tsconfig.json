@@ -8,7 +8,7 @@
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "outDir": "dist",
+    "outDir": "./dist",
     "rootDirs": ["./src", "./scripts", "./test"],
     "declaration": true
   },
