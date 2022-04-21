@@ -13,7 +13,7 @@
     "rootDirs": ["./src", "./scripts", "./test"],
     "declaration": true
   },
-  "exclude": ["dist", "node_modules", "data"],
+  "exclude": ["node_modules"],
   "include": ["./test", "./src", "./scripts"],
   "files": ["./hardhat.config.ts"]
 }
