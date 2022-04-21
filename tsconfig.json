@@ -8,11 +8,11 @@
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "outDir": "./dist",
+    "outDir": "app/dist",
     "rootDirs": ["./src", "./scripts", "./test"],
     "declaration": true
   },
-  "exclude": ["dist", "node_modules", "data"],
+  "exclude": ["app", "node_modules", "data"],
   "include": ["./test", "./src", "./scripts"],
   "files": ["./hardhat.config.ts"]
 }
