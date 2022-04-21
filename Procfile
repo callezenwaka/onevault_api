@@ -1,1 +1,1 @@
-web: node app/dist/index.js
+worker: npm start
