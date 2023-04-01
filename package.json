@@ -9,6 +9,8 @@
   "scripts": {
     "dev": "nodemon -r dotenv/config src/index.ts",
     "start": "node dist/src/index.js",
+    "files": "ts-node ./scripts/files.ts",
+    "compile": "npx hardhat compile && npm run files",
     "postinstall": "tsc",
     "test": "test"
   },

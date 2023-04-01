@@ -2,7 +2,7 @@ import { Response, NextFunction } from "express";
 import { ethers } from 'ethers';
 import { create } from 'ipfs-http-client';
 import Document from '../types/Document';
-import { documentAddress, documentsABI } from '../config';
+import { documentAddress, documentsABI } from '../libs/config';
 const client = create({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' });
 
 /**

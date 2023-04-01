@@ -1,5 +1,5 @@
 // import packages and dependencies
-import { isAuthenticated, isSigner } from '../utils';
+import { isAuthenticated, isSigner } from '../libs/utils';
 import service from "../controllers/service";
 import express from "express";
 const router = express();

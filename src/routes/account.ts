@@ -1,7 +1,7 @@
 // import packages and dependencies
-import { isAuthenticated, isSigner, createWallet, setClaim, updateUser, postSecret } from '../utils';
+import { isAuthenticated, isSigner, createWallet, setClaim, updateUser, postSecret } from '../libs/utils';
 import account from "../controllers/account";
-import { multer } from "../utils";
+import { multer } from "../libs/utils";
 import express from "express";
 const router = express();
 

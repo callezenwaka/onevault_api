@@ -1,7 +1,7 @@
 import { Response, NextFunction } from "express";
 import { ethers } from 'ethers';
 import Service from '../types/Service';
-import { serviceAddress, servicesABI } from '../config';
+import { serviceAddress, servicesABI } from '../libs/config';
 
 /**
  * [START GET SERVICES]
